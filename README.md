@@ -2,34 +2,49 @@
 
 **[Explore the interactive preview](https://bonejohnson8.github.io/slopcannon-concepts/)**
 
-Three brand directions, a cinematic splash page, and a conversational music-video workspace. This is a design prototype, separate from the live Slopcannon product.
+A cinematic splash page, two approaches to conversational production, a full Studio concept, and an interactive brand lab. This is a design prototype, separate from the live Slopcannon product.
 
-## Explore
+## Explore version 2
 
-Use the bottom navigation to switch between **Splash**, **Chat**, and **Brand**.
+Use the bottom navigation:
 
-- **Chrome Club:** chrome and pearl-pink cannon-nose mascot, warm coral, editorial typography. The lead direction.
-- **Soft Power:** warm cream, plum and milkshake pink, with a friendlier illustrated pig cannon.
-- **After Hours:** acid green, charcoal and independent-record-label attitude.
+- **[Splash](https://bonejohnson8.github.io/slopcannon-concepts/#splash):** the original Chrome Club landing-page direction.
+- **[Chat](https://bonejohnson8.github.io/slopcannon-concepts/#chat):** the original conversation-first concept.
+- **[Studio](https://bonejohnson8.github.io/slopcannon-concepts/#studio):** dark production workspace with project assets, player, sequence, and scene inspector.
+- **[Chat + controls](https://bonejohnson8.github.io/slopcannon-concepts/#director):** a second chat design, with editable scene cards and generation controls inside the conversation, plus a persistent film overview.
+- **[Brand lab](https://bonejohnson8.github.io/slopcannon-concepts/#brand):** four snout silhouettes, ear spacing and height sliders, contrast samples, motion, and downloadable SVGs. The original three brand directions remain available in an expandable section.
 
-Brand buttons preview the palette on the splash and chat. Sample films open a simulated Producer conversation and storyboard. Audio and image pickers show local filenames only; nothing is uploaded. No accounts, model calls, real generation, payments, or customer data are connected.
+## Take the walkthrough
+
+Choose **Play walkthrough** in Studio or Chat + controls. Nine animated steps cover audio and references, visual direction, scene controls, cost review, clip generation, take selection, and assembly. Pause, step forward/back, or take over any control. Starting the walkthrough or using Reset resets the sample project.
+
+The two new workspaces share one project in browser memory. Changes to scene selection, prompts, camera, framing, lip sync, duration, order, takes, and export settings carry across modes. A run started in chat remains the same run in Studio. Changing the cut makes an existing export stale.
+
+Try a custom chat direction such as **“Lock the camera in scene 2”**, **“Make scene 3 more intimate”**, or **“Turn lip sync off in scene 1.”** These are scripted local interactions. Other messages are saved verbatim as the selected scene's direction.
+
+## What is simulated
+
+No accounts, model calls, production services, payments, uploads, or customer data are connected. All credits and generation/assembly progress are illustrative. Selected files contribute filenames only. The sample waveform does not represent analyzed audio. Playback is a silent animated storyboard using fictional concept artwork; it is not a generated film. A second take demonstrates a warmer color grade. The export demo downloads a real JSON shot list, not an MP4.
+
+Changes last until the page is reloaded. The original Chat is a separate design example from the shared Studio / Chat + controls project.
+
+## Brand system
+
+The recommended mark uses shorter, outward-splayed ears and a wider gap. The other candidates use wide low ears, compact ears, or just the snout. The twin nostrils have transparent cutouts. Ear adjustments update marks across the concept; the full 3D mascot is a separate asset. The snout-only favicon stays optically optimized for small sizes.
 
 ## Design and performance
 
-Original generated artwork, a compact vector brand mark, subtle parallax, responsive layouts and reduced-motion support. Plain HTML/CSS/JavaScript. About450KB of total uncompressed site files and artwork; no framework, WebGL runtime or external fonts.
+Plain HTML/CSS/JavaScript with relative assets, no framework or WebGL runtime, no external fonts, and reduced-motion support. Original generated artwork and a compact vector mark. The prototype is marked `noindex,nofollow`; SEO copy and application metadata remain drafts.
 
-SEO copy and application metadata are drafts. The prototype is marked noindex/nofollow. The sample film stills are fictional concept artwork, not customer work or playable videos.
-
-## Run locally
-
-Serve this directory with a static HTTP server and open its local address. All asset paths are relative, including GitHub Pages project-site support.
+Serve this directory with any static HTTP server. GitHub Pages publishes the root of `main`; `.nojekyll` preserves the static files.
 
 ## Files
 
-- `index.html`: splash and shared navigation
-- `styles.css`: visual system and responsive styles
-- `app.js`: demo chat, sample storyboards and brand palette interactions
-- `mascot.webp`, `worlds.webp`: original concept artwork
+- `index.html`, `styles.css`, `app.js`: original splash, Chat, and brand directions
+- `studio.js`, `studio.css`: shared Studio and Chat + controls experience
+- `brand-lab.js`, `brand-lab.css`: logo exploration and motion studies
+- `mascot.webp`, `worlds.webp`, `frog-storyboard.webp`: original concept artwork
+- `marks/`: standalone vector candidates
 - `image-prompts.md`: artwork direction and generation provenance
 
 No production application code or customer records are included.

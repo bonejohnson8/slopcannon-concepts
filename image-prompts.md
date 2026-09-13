@@ -28,3 +28,11 @@ Center panel: a cobalt-blue clay frog wearing an oversized lavender puffer jacke
 Right panel: a black race car parked in a lush moss-green foggy forest with exaggerated giant flowers, cinematic green silhouette mood. Low three-quarter view of car, dense organic moss, huge surreal flowers, deep shadow and soft luminous green fog.
 Composition: wide horizontal landscape artwork, each of the three panels a vertical portrait composition. Strong readable subjects and art-directed textures. Full-bleed image.
 Constraints: exactly three equal-width panels; no extra panels, borders, gutters, lettering, typography, captions, logos or watermarks. This is fictional demo concept artwork, not customer work.
+
+## Version 2 — Midnight spin storyboard
+
+Generated once on September 13, 2026, with built-in image generation. The central clay-frog panel in `worlds.webp` served as the character reference. The new image is a 2172 × 724 triptych, converted to WebP at quality 90. The three equal panels are used as CSS image positions throughout Studio and Chat + controls.
+
+Prompt direction: create three contiguous square scenes of the same handmade green clay frog in a purple puffer jacket and trousers. Left: alone on a washer in a pink-neon laundromat, medium wide. Center: close-up with floating detergent bubbles and reflections in glossy eyes. Right: on a rooftop at blue dawn holding a tiny flower, hopeful skyline. Tactile thumbprints, cinematic pink and teal lighting, miniature stop-motion sets. Three distinct camera framings. No words, labels, UI, watermarks, or borders.
+
+The player animates these stills. No video or audio was generated for this interface study. Alternative take previews use a browser color grade on the same scene image.

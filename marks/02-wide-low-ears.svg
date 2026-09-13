@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" role="img" aria-labelledby="title">
+  <title id="title">Slopcannon snout — wide low ears</title>
+  <path d="M12 34 3 22Q1.5 19.5 4.5 20L25 27ZM39 27 59.5 20Q62.5 19.5 61 22L52 34Z"/>
+  <path fill-rule="evenodd" d="M22 24H42C52 24 59 31 59 40S52 56 42 56H22C12 56 5 49 5 40S12 24 22 24ZM24 33A4 4 0 0 0 20 37V43A4 4 0 0 0 28 43V37A4 4 0 0 0 24 33ZM40 33A4 4 0 0 0 36 37V43A4 4 0 0 0 44 43V37A4 4 0 0 0 40 33Z"/>
+</svg>
